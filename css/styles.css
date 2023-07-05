@@ -166,7 +166,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  display: flex;
+  display: block;
   padding: 16px 32px;
   border-radius: 4px;
   margin: 0 auto;
@@ -215,6 +215,19 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin: 0 auto;
+  padding-bottom: 72px;
+}
+.do-list-item {
+  width: calc((100%-24px * 2) / 3);
+  padding-bottom: 120px;
+}
+.do-list {
+  display: flex;
+  gap: 24px;
+}
+.do-img {
+  border: 1px solid #e7e9fc;
 }
 
 /**-----Section 4 Team ------**/
@@ -223,7 +236,19 @@ body {
 }
 .team-item {
   background-color: var(--color-ground);
+  width: calc((100%-24px * 3) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--color-text);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.team-list {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
+}
+
 .team-title {
   color: var(--brand-color);
   font-size: 36px;
@@ -232,6 +257,11 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin: 0 auto;
+  padding-bottom: 72px;
+  padding-top: 72px;
+
+  text-align: center;
 }
 .team-names {
   color: var(--brand-color);
@@ -240,6 +270,11 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 8px;
+  padding-top: 32px;
 }
 .team-jobs {
   color: var(--color-contact);
@@ -248,6 +283,10 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+
+  padding-bottom: 32px;
+  margin: 0 auto;
 }
 
 /**--------FILTRES--------*/
@@ -294,6 +333,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: flex;
+  max-width: 44px;
 }
 .footer-logo-span {
   color: var(--color-btn);
@@ -304,6 +345,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: flex;
+  max-width: 71px;
 }
 .footer-text {
   color: var(--color-btn);
@@ -312,4 +355,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--brand-color);
+  max-width: 264px;
+  padding-bottom: 100px;
+  padding-top: 17.5px;
 }
