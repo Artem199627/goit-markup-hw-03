@@ -270,7 +270,6 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   margin: 0 auto;
   text-align: center;
   padding-bottom: 8px;
@@ -284,12 +283,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-
   padding-bottom: 32px;
   margin: 0 auto;
 }
 
 /**--------FILTRES--------*/
+.filters-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding-top: 96px;
+}
 .filters-btn {
   color: var(--color-logo);
   background-color: var(--color-btn);
@@ -299,11 +303,29 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: var(--color-btn);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .filters-btn:hover,
 .filters-btn:focus {
   background-color: #404bbf;
   color: var(--color-ground);
+}
+.phone-list {
+  display: flex;
+  gap: 48px 24px;
+  margin-top: 72px;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+}
+
+.phone-item {
+  border: 1px solid #e7e9fc;
+  background: var(--color-text #fff);
+  width: 360px;
 }
 .list-title {
   color: var(--brand-color);
@@ -311,12 +333,19 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .list-text {
   color: var(--color-contact);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /**------FOOTER-----**/
