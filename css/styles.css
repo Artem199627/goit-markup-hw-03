@@ -43,6 +43,11 @@ body {
 }
 
 /**--------- HEADER ---------*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  background: var(--color-text);
+  flex-shrink: 0;
+}
 
 .header-logo {
   color: var(--color-logo);
@@ -126,6 +131,7 @@ body {
 /** ------Hero ------ **/
 .hero {
   background: var(--brand-color);
+  padding: 188px 472px;
 }
 .hero-title {
   color: var(--color-text);
@@ -135,6 +141,9 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-btn {
   color: var(--color-text);
@@ -145,12 +154,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: flex;
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
-/** ----Feature---**/
+
+/**------Feature-----**/
 .feature-title {
   color: var(--brand-color);
   font-size: 20px;
