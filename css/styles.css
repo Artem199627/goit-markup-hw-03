@@ -333,8 +333,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: flex;
-  max-width: 44px;
+  display: inline-block;
+  margin-bottom: 16px;
+  padding-top: 100px;
 }
 .footer-logo-span {
   color: var(--color-btn);
@@ -345,8 +346,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: flex;
-  max-width: 71px;
+  display: inline-block;
+  margin-bottom: 16px;
+  padding-top: 100px;
 }
 .footer-text {
   color: var(--color-btn);
@@ -355,7 +357,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--brand-color);
+  display: flex;
   max-width: 264px;
   padding-bottom: 100px;
-  padding-top: 17.5px;
 }
