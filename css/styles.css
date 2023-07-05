@@ -105,6 +105,8 @@ body {
   gap: 40px;
   display: inline-flex;
   align-items: flex-start;
+}
+.header-menu-item {
   padding: 24px 0;
 }
 .header-contact {
@@ -315,6 +317,7 @@ body {
   gap: 24px;
   justify-content: center;
   padding-top: 96px;
+  margin-bottom: 72px;
 }
 .filters-btn {
   color: var(--color-logo);
