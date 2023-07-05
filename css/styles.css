@@ -106,9 +106,7 @@ body {
   display: inline-flex;
   align-items: flex-start;
 }
-.header-menu-item {
-  padding: 24px 0;
-}
+
 .header-contact {
   display: flex;
   gap: 40px;
@@ -126,6 +124,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .adress {
