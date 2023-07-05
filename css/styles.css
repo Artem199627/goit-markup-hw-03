@@ -28,6 +28,18 @@ body {
   color: #434455;
   background-color: var(--color-ground);
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .container {
   width: 100%;
   max-width: 1158px;
@@ -172,6 +184,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .feature-text {
   color: var(--color-contact);
@@ -179,6 +192,18 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+}
+.feature-list {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  margin: 0 auto;
+  gap: 24px;
 }
 
 /**-----Section 3 What we are doing----**/
