@@ -297,7 +297,6 @@ body {
 /**--------FILTRES--------**/
 .filters {
   padding-top: 96px;
-  padding-bottom: 120px;
 }
 .filters-list {
   display: flex;
